@@ -1,4 +1,5 @@
 from work_days import wd
+# The schedule of working days
 # Отримаємо вхідні дані
 year = int(input("Start Year: "))
 month = int(input("Start Month: "))
@@ -11,4 +12,3 @@ def schedule(year, month, day, period, w_day, r_day):
 
 if __name__ == '__main__':
     schedule(year, month, day, period, w_day, r_day)
-
